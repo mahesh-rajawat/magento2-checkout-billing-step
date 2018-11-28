@@ -1,0 +1,20 @@
+
+@media (min-width: 768px), print {
+    #custom-billing-step .actions-toolbar .primary {
+        float: right;
+        margin: 0;
+    }
+}
+#custom-billing-step > .actions-toolbar > .primary .action.primary{
+    line-height: 2.2rem;
+    padding: 14px 17px;
+    font-size: 1.8rem;
+}
+@media (min-width: 768px), print{
+    #custom-billing-step .actions-toolbar .action-update {
+        margin: 6px 20px 0 0;
+    }
+}
+#custom-billing-step .checkout-billing-address{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,9 @@
+var config = {
+    'config': {
+        'mixins': {
+            'Magento_Checkout/js/view/payment': {
+                'Webkul_CheckoutCustomization/js/view/shipping-payment-mixin': true
+            }
+        }
+    }
+}
